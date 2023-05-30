@@ -1,5 +1,6 @@
 package Curs1;
 
+
 public class Test {
     public static void main(String args[]) {
         ClasaAfișareȘir c = new ClasaAfișareȘir();

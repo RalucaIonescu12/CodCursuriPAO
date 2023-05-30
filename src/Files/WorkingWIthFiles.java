@@ -9,9 +9,6 @@ public class WorkingWIthFiles {
         File f = new File("C:\\FACULTATE\\ANUL II\\An II sem 2\\PAO\\Cod-Curs3-PAO\\src\\Files\\exemplu.txt");
         FileReader fin2 = new FileReader(f);
 
-
-
-
         try {
             FileWriter fout = new FileWriter("exemplu.txt");
         } catch (IOException e) {
@@ -35,9 +32,6 @@ public class WorkingWIthFiles {
         int c;
         while((c = fin.read()) != -1)
             fout3.write(c);
-
-
-
 
         /////Copierea directă a întregului conținut al
         // fișierului text test.txt în fișierul text copie_octeti.txt.

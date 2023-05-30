@@ -31,7 +31,7 @@ public class CitireBuffer {
                 Arrays.sort(cuv);
                 System.out.println(Arrays.toString(cuv));
                 for(int i=0; i<cuv.length; i++)
-                    fout.write(cuv[i]+" ");
+                    fout.write(cuv[i] + " ");
                 fout.write("\n");
             }
         }

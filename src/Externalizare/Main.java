@@ -26,8 +26,7 @@ public class Main {
 //        Restaurarea tabloului s din fișierul binar studenti_extern.ser se poate realiza astfel:
 
         Student s2[];
-        try(ObjectInputStream fin = new ObjectInputStream(
-                new FileInputStream("studenti_extern.ser")))
+        try(ObjectInputStream fin = new ObjectInputStream(new FileInputStream("studenti_extern.ser")))
         {
             s2= (Student [])fin.readObject();
         }
